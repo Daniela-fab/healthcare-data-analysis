@@ -21,8 +21,14 @@ The project demonstrates basic data cleaning, exploratory data analysis, groupin
 
 The dataset contains healthcare records including patient age, gender, diagnosis, admission type, billing amount, hospital stay length and test results.
 
-The original dataset is not included in this repository.  
-This repository contains the cleaned dataset used for exploratory data analysis.
+The original dataset in this project comes from Kaggle.
+Source:  [Healthcare Dataset on Kaggle](https://www.kaggle.com/datasets/prasad22/healthcare-dataset)
+The original dataset is stored in the `data/raw` folder.
+The cleaned dataset used for exploratory data analysis is stored in the `data/processed` folder.
+
+## License
+
+The dataset is available on Kaggle under the CC0: Public Domain license.
 
 ## Project structure
 
@@ -30,6 +36,9 @@ This repository contains the cleaned dataset used for exploratory data analysis.
 healthcare-data-analysis
 │
 ├── data
+│   ├── raw
+│   │   └── healthcare_dataset_original.csv
+│   │
 │   └── processed
 │       └── healthcare_dataset_cleaned_added_columns.csv
 │
@@ -38,6 +47,7 @@ healthcare-data-analysis
 │   └── 02_eda.ipynb
 │
 └── README.md
+```
 
 ## Data cleaning
 The cleaning process included:
