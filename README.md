@@ -67,12 +67,20 @@ The analysis focused on:
 5. How do billing amounts differ by diagnosis, insurance provider and admission type?
 6. How do test results differ by diagnosis and age group?
 
-## Key insights
-- The dataset contains patients across a wide range of ages.
-- Gender distribution is relatively balanced.
-- Diagnoses appear in comparable frequencies.
-- Hospital stay length differs depending on diagnosis and admission type.
-- Billing amounts vary across diagnoses, insurance providers and admission types.
+## Key Findings
+
+- The original dataset contained 55,500 records. After removing duplicate rows, 54,966 records were analyzed.
+- The dataset does not contain missing values.
+- Patients’ ages range from 13 to 89 years. The age distribution is relatively even, with the most frequent age group being 61–70 years.
+- Gender distribution is almost balanced, with a very similar number of male and female patients.
+- Medical conditions are distributed very evenly across the dataset. Arthritis is the most frequent condition, but the differences between diagnoses are small.
+- Diagnoses do not show a strong difference by gender or age group.
+- The average billing amount is similar across medical conditions, insurance providers, and admission types. The highest average billing amount is associated with Obesity, Medicare, and Elective admissions, but the differences are small.
+- The average length of hospitalization is approximately 15.5 days.
+- Hospital stay length does not differ substantially by diagnosis or admission type.
+- A noticeably higher number of patients stayed exactly 30 days, which may indicate that 30 days is an upper limit in the dataset.
+- Test results are relatively balanced across medical conditions and age groups.
+- Overall, the dataset appears to be highly balanced, which may indicate a synthetic or artificially generated dataset.
 
 ## Project status
 The data cleaning and exploratory data analysis are completed.  
